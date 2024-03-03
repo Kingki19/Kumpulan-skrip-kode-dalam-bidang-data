@@ -1,8 +1,8 @@
 # Kumpulan skrip kode dalam bidang data
-Kalau mau berbagi silahkan wir, jangan pelit. 
+Kalau mau berbagi silahkan wir, jangan pelit. Gw buat ini juga nanti kalau mau kupakai lagi ga cari-cari lagi.
 ## Timeseries
-- Fungsi untuk meresample data timeseries
-  Contoh penggunaan: misal jika urutan tanggal timeseries mu ada tanggal yang hilang atau kosong. Fungsi ini dapat menyelesaikan masalah itu.
+- Fungsi untuk meresample data timeseries  
+  Contoh penggunaan: misal jika urutan tanggal data timeseries-mu ada tanggal yang hilang atau kosong. Fungsi ini dapat menyelesaikan masalah itu. 
   ```python
   def fill_date_resampling(df, kolom_tanggal, kolom_exclude=[], format_tanggal='%d-%m-%Y', frequensi_resampling='D'):
   '''
