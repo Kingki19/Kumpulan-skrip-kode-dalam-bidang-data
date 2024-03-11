@@ -1,5 +1,7 @@
 # Kumpulan skrip kode dalam bidang data
-Kalau mau berbagi silahkan wir, jangan pelit. Gw buat ini juga nanti kalau mau kupakai lagi ga cari-cari lagi. 
+- Kalau mau berbagi silahkan wir, jangan pelit. Gw buat ini juga nanti kalau mau kupakai lagi ga cari-cari lagi. Gw udah buat banyak fungsi buat analisis, pembersihan, dan pemodelan sering lupa naruh dimana. 
+- Jika ada eror pada suatu fungsi, taruh saja di issues errornya bagian mana.
+- Kalau mau share kode silahkan, opsi 1: bikin cabang dan pull request kesini (nanti saya cek dulu), opsi 2: share kode kalian di Issues.
 # Daftar Isi
 - [Time Series](#time-series)
    - [Exploratory Data Analysis](#exploratory-data-analysis)
@@ -17,14 +19,14 @@ def print_shape_col(nama_df, df):
   '''
   Memberikan output ukuran dan semua kolom dalam dataframe
   '''
-  markdown(f'###{nama_df}:')
-  markdown(f'- **Total rows**: {df.shape[0]}')
-  markdown(f'- **Total columns**: {df.shape[1]}')
+  print(f'{nama_df}:')
+  print(f'Total rows: {df.shape[0]}')
+  print(f'Total columns: {df.shape[1]}')
   # kolom tanggal jadikan index dulu dan lakukan di luar fungsi ini
   tanggal_awal = df.index.min()
   tanggal_akhir = df.index.max()
-  markdown(f'- Range tanggal: {tanggal_awal} sampai {tanggal_akhir}')
-  markdown(f'- **Columns**: {df.columns}')
+  print(f'Range tanggal: {tanggal_awal} sampai {tanggal_akhir}')
+  print(f'Columns**: {df.columns}')
 ```
 
 
