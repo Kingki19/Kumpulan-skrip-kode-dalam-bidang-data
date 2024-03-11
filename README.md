@@ -42,3 +42,25 @@ Kalau mau berbagi silahkan wir, jangan pelit. Gw buat ini juga nanti kalau mau k
     return df_resampled
 
   ```
+
+# Daftar Isi
+1. [Header 1](#header-1)
+   - [Subheader 1.1](#subheader-11)
+   - [Subheader 1.2](#subheader-12)
+2. [Header 2](#header-2)
+   - [Subheader 2.1](#subheader-21)
+   - [Subheader 2.2](#subheader-22)
+
+## Header 1
+### Subheader 1.1
+Isi subheader 1.1
+
+### Subheader 1.2
+Isi subheader 1.2
+
+## Header 2
+### Subheader 2.1
+Isi subheader 2.1
+
+### Subheader 2.2
+Isi subheader 2.2
