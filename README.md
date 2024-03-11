@@ -20,6 +20,7 @@ def print_shape_col(nama_df, df):
   markdown(f'###{nama_df}:')
   markdown(f'- **Total rows**: {df.shape[0]}')
   markdown(f'- **Total columns**: {df.shape[1]}')
+  # kolom tanggal jadikan index dulu dan lakukan di luar fungsi ini
   tanggal_awal = df.index.min()
   tanggal_akhir = df.index.max()
   markdown(f'- Range tanggal: {tanggal_awal} sampai {tanggal_akhir}')
