@@ -2,16 +2,29 @@
 Kalau mau berbagi silahkan wir, jangan pelit. Gw buat ini juga nanti kalau mau kupakai lagi ga cari-cari lagi. 
 # Daftar Isi
 - [Time Series](#time-series)
-   - [Exploratory Data Analytics](#exploratory-data-analytics)
+   - [Exploratory Data Analysis](#exploratory-data-analysis)
       - [Ngecek total baris, total kolom, range tanggal, dan nama semua kolom](#fungsi-untuk-mengecek-total-baris-total-kolom-range-tanggal-dan-nama-nama-kolom-dalam-data-timeseries)
    - [Data Cleaning](#data-cleaning)
-
+      - [Meresample data timeseries](#fungsi-untuk-meresample-data-timeseries)
 
 ## Time Series
 
-### Exploratory Data Analytics
+### Exploratory Data Analysis
 
 #### **Fungsi untuk mengecek total baris, total kolom, range tanggal, dan nama-nama kolom dalam data timeseries**
+```python
+def print_shape_col(nama_df, df):
+  '''
+  Memberikan output ukuran dan semua kolom dalam dataframe
+  '''
+  markdown(f'###{nama_df}:')
+  markdown(f'- **Total rows**: {df.shape[0]}')
+  markdown(f'- **Total columns**: {df.shape[1]}')
+  tanggal_awal = df.index.min()
+  tanggal_akhir = df.index.max()
+  markdown(f'- Range tanggal: {tanggal_awal} sampai {tanggal_akhir}')
+  markdown(f'- **Columns**: {df.columns}')
+```
 
 
 
