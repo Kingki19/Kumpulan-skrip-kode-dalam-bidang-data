@@ -1,7 +1,17 @@
 # Kumpulan skrip kode dalam bidang data
-Kalau mau berbagi silahkan wir, jangan pelit. Gw buat ini juga nanti kalau mau kupakai lagi ga cari-cari lagi.
-## Timeseries
-### **Fungsi untuk meresample data timeseries**  
+Kalau mau berbagi silahkan wir, jangan pelit. Gw buat ini juga nanti kalau mau kupakai lagi ga cari-cari lagi. 
+# Daftar Isi
+- [Time Series](#time-series)
+   - [Exploratory Data Analytics]()
+   - [Subheader 1.2](#subheader-12)
+2. [Header 2](#header-2)
+   - [Subheader 2.1](#subheader-21)
+   - [Subheader 2.2](#subheader-22)
+
+## Time Series
+### Exploratory Data Analytics
+### Data Cleaning
+#### **Fungsi untuk meresample data timeseries**  
   Contoh penggunaan: misal jika urutan tanggal data timeseries-mu ada tanggal yang hilang atau kosong. Fungsi ini dapat menyelesaikan masalah itu.  
   Referensi parameter `.resample` ada [disini](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.resample.html)
   ```python
